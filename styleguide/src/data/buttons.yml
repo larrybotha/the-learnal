@@ -1,0 +1,5 @@
+modifiers:
+  btn--primary:
+    - is-active
+    - is-selected
+    - btn--full

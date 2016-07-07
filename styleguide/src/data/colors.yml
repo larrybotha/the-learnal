@@ -1,0 +1,19 @@
+namespaces:
+  base:
+    - -dk
+    - ''
+    - -lt
+    - -ltr
+  primary:
+    - -dkr
+    - -dk
+    - ''
+    - -lt
+    - -ltr
+  secondary:
+    - -dkr
+    - -dk
+    - ''
+    - -lt
+    - -ltr
+

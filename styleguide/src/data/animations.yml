@@ -1,0 +1,6 @@
+modifiers:
+  - no-anim
+  - anim-fade-in--up
+ng-modifiers:
+  - ngAnim-fade-in--down
+  - ngAnim-slide-in--right

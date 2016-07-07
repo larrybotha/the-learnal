@@ -1,0 +1,25 @@
+/**
+ * Fabricator styles
+ * @author Luke Askew
+ * Class selectors are namespaced with "f-"
+ */
+
+@import 'partials/variables';
+@import 'partials/code';
+@import 'partials/color-blocks';
+@import 'partials/controls';
+@import 'partials/item';
+@import 'partials/layout';
+@import 'partials/menu';
+
+/**
+ * import your own stylesheet
+ *
+ * convenient for creating classes in fabricator from placeholders that you may
+ * not want to have classes for in production
+ *
+ * e.g. demoing backgrounds, padding, and margin modifiers
+ */
+// @import '../../toolkit/assets/css/scss/style';
+
+@import 'views/layout';

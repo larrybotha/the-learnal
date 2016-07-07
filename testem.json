@@ -1,0 +1,17 @@
+{
+  "launchers": {
+    "Chrome": {
+      "command": "./node_modules/.bin/babel-node ./test/index.js"
+    },
+    "PhantomJS": {
+      "command": "./node_modules/.bin/babel-node ./test/index.js"
+    }
+  },
+  "framework": "tap",
+  "src_files": [
+    "test/**/*.js",
+    "src/assets/js/**/*.js",
+    "src/assets/js/**/*.jsx"
+  ],
+  "launch_in_dev": ["PhantomJS", "Chrome"]
+}
